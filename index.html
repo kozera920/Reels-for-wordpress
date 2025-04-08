@@ -1,0 +1,77 @@
+<div class="koz-video-reel-container" style="visibility: hidden; height: 0;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <div class="koz-loader" id="koz-loader"></div>
+    <!-- Close button -->
+    <div class="koz-close-btn" id="koz-close-btn" onclick="closeVideoReel()">
+        <i class="fas fa-times"></i>
+    </div>
+
+
+
+    <div id="koz-container">
+        <div class="koz-video-wrapper" id="koz-wrapper1">
+            <video id="koz-video1" class="koz-video" loop playsinline preload="metadata"></video>
+            <div class="koz-video-overlay">
+                <div class="koz-play-pause-btn" onclick="togglePlayPause(this)">
+                    <i class="fas fa-pause"></i>
+                </div>
+                <div class="koz-video-text-container">
+                    <div class="koz-video-title"></div>
+                    <div class="koz-video-caption"></div>
+                    <div class="koz-video-date"></div>
+                </div>
+                <div class="koz-video-like-container">
+                    <div class="koz-like-btn" onclick="toggleLike(this)">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="koz-like-count">0</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="koz-video-wrapper" id="koz-wrapper2">
+            <video id="koz-video2" class="koz-video" loop playsinline preload="metadata"></video>
+            <div class="koz-video-overlay">
+                <div class="koz-play-pause-btn" onclick="togglePlayPause(this)">
+                    <i class="fas fa-pause"></i>
+                </div>
+                <div class="koz-video-text-container">
+                    <div class="koz-video-title"></div>
+                    <div class="koz-video-caption"></div>
+                    <div class="koz-video-date"></div>
+                </div>
+                <div class="koz-video-like-container">
+                    <div class="koz-like-btn" onclick="toggleLike(this)">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="koz-like-count">0</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="koz-video-wrapper" id="koz-wrapper3">
+            <video id="koz-video3" class="koz-video" loop playsinline preload="metadata"></video>
+            <div class="koz-video-overlay">
+                <div class="koz-play-pause-btn" onclick="togglePlayPause(this)">
+                    <i class="fas fa-pause"></i>
+                </div>
+                <div class="koz-video-text-container">
+                    <div class="koz-video-title"></div>
+                    <div class="koz-video-caption"></div>
+                    <div class="koz-video-date"></div>
+                </div>
+                <div class="koz-video-like-container">
+                    <div class="koz-like-btn" onclick="toggleLike(this)">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="koz-like-count">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
